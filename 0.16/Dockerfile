@@ -3,7 +3,7 @@ FROM debian:stable-slim
 LABEL maintainer.0="João Fonseca (@joaopaulofonseca)" \
   maintainer.1="Pedro Branco (@pedrobranco)" \
   maintainer.2="Rui Marinho (@ruimarinho)"
-
+  maintainer.3="Chris Montes (@lodotek)"
 RUN useradd -r bitcoin \
   && apt-get update -y \
   && apt-get install -y curl gnupg \

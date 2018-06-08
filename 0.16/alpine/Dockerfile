@@ -89,7 +89,7 @@ FROM alpine
 LABEL maintainer.0="João Fonseca (@joaopaulofonseca)" \
   maintainer.1="Pedro Branco (@pedrobranco)" \
   maintainer.2="Rui Marinho (@ruimarinho)"
-
+  maintainer.3="Chris Montes (@lodotek)"
 RUN adduser -S bitcoin
 RUN apk --no-cache add \
   boost \
